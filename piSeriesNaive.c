@@ -28,7 +28,7 @@ int main(int argc, char *argv[])
     n = strtoll(argv[2], NULL, 10);
 
     double first_time = omp_get_wtime();
-#pragma omp parallel for num_threads(thread_count) schedule(static)\
+#pragma omp parallel for num_threads(thread_count) schedule(guided, 128)\
     reduction(+                                    \
               : sum) private(k)
     for (k = 0; k < n; k++)
@@ -37,6 +37,11 @@ int main(int argc, char *argv[])
     }
     double second_time = omp_get_wtime();
     sum = 4.0 * sum;
+    // write time on file
+    FILE *fp;
+    fp = fopen("timeH.txt", "a");
+    fprintf(fp, "guided block_size 128 %f \n", second_time - first_time);
+    fclose(fp);
     printf("With n = %lld terms and %d threads,\n", n, thread_count);
     printf("   Our estimate of pi = %.14f\n", sum);
     printf("                   PI = %.14f\n", 4.0 * atan(1.0));
