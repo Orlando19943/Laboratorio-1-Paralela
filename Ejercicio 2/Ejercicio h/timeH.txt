@@ -53,3 +53,5 @@ guided block_size 128 0.758000
 guided block_size 128 0.756000 
 guided block_size 128 0.753000 
 guided block_size 128 0.771000 
+guided block_size 128 0.032000 
+guided block_size 128 0.014000 

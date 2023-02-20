@@ -1,0 +1,7 @@
+secuencial 1.922000 
+secuencial 1.919000 
+secuencial 1.932000 
+secuencial 1.927000 
+secuencial 1.930000 
+secuencial 0.200000 
+secuencial 0.191000 
