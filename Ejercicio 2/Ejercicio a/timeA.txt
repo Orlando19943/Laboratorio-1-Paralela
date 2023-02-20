@@ -1,0 +1,10 @@
+Tiempo secuencial 3.752000 con valor de pi: 3.14159265258805
+Tiempo secuencial 3.696000 con valor de pi: 3.14159265258805
+Tiempo secuencial 3.707000 con valor de pi: 3.14159265258805
+Tiempo secuencial 3.728000 con valor de pi: 3.14159265258805
+Tiempo secuencial 3.695000 con valor de pi: 3.14159265258805
+Tiempo paralelo 3.219000 con valor de pi: 3.14161279755837
+Tiempo paralelo 2.862000 con valor de pi: -3.14166378603510
+Tiempo paralelo 2.764000 con valor de pi: 3.14157162537550
+Tiempo paralelo 3.327000 con valor de pi: 3.14160675382436
+Tiempo paralelo 2.904000 con valor de pi: -3.14155773212690
